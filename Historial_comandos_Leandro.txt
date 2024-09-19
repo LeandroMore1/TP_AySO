@@ -1,0 +1,151 @@
+cd /home/vagrant/
+ls
+ls -la
+ls -l .ssh/
+ssh-keygen --help
+grep ed25519
+ssh-keygen --help
+ssh-keygen -t ed25519
+ls /home/vagrant/.ssh/
+cat /home/vagrant/.ssh/id_ed25519.pub
+mkdir repogit
+ls
+cd repogit/
+ls
+git clone git@github.com:LeandroMore1/TP_AySO.git
+ls
+cd TP_AySO/
+ls .l
+ls -l
+cat /etc/os-release 
+man grep
+grep -i HOME_URL /etc/os-release 
+grep -i HOME_URL /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git status
+ls
+rm datos_usuario.txt
+ls
+cd repogit/ | echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+git status
+/home/
+cd /
+ls
+cd /home/
+ls
+cd vagrant/
+ls
+cd repogit
+ls
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+git status
+ls TP_AySO/
+cd TP_AySO/
+git status
+cd ..
+rm datos_usuario.txt
+ls
+cd TP_AySO/ |  echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+rm datos_usuario.txt
+ls
+ls TP_AySO/
+cd TP_AySO/
+ls
+git status
+git add .
+git config --global user.email "manumore42@gmail.com"
+git config --global user.name "LeandroMore1"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+ls /
+ls /proc/
+ls /proc/cpuinfo 
+cat /proc/cpuinfo 
+grep 'model name' /proc/cpuinfo | head -n 1
+grep 'model name' /proc/cpuinfo | head -n 2
+grep 'model name' /proc/cpuinfo | head -n 1
+grep 'model name' /proc/cpuinfo | head -n 1 >> datos_usuarios.txt
+ls
+cat datos_usuario
+cat datos_usuario.txt
+cat datos_usuarios.txt
+rm  datos_usuario.txt
+ls
+cat datos_usuarios.txt 
+git status
+git add .
+git commit -m"feat: Añadiendo información de CPU"
+mkdir lista_ordenada
+ls
+grep /etc/passwd
+ls
+rm datos_usuario.txt 
+ls
+ls repogit
+cd repogit/TP_AySO/
+ls
+rm lista_ordenada
+ls
+rm lista_ordenada/
+rm -r lista_ordenada/
+ls
+mkdir lista_ordenada.txt
+ls
+cat /etc/passwd
+man grep
+grep -i 'nologin' /etc/passwd head -n 10
+man grep
+grep -i 'nologin' /etc/passwd head -n 10
+grep -v 'nologin' /etc/passwd head -n 10
+grep -v 'nologin' /etc/passwd head -n 10 | sort -t -k7
+grep -v 'nologin' /etc/passwd head -n 10 | sort -t: -k7
+grep -v 'nologin' /etc/passwd | head -n 10 | sort -t: -k7
+cat /etc/passwd | grep -v "nologin" | head -n 10 | sort -t: -k7
+cat /etc/passwd | grep -v "nologin" | head -n 10 | sort -t: -k7 > lista_ordenada.txt
+cat /etc/passwd | grep -v "nologin" | head -n 10 | sort -t: -k7 >> lista_ordenada.txt
+ls
+rm -r lista_ordenada.txt
+echo lista_ordenada
+ls
+echo lista_ordenada.txt
+ls
+touch lista_ordenada.txt
+ls
+cat /etc/passwd | grep -v "nologin" | head -n 10 | sort -t: -k7 >> lista_ordenada.txt
+ls
+cat lista_ordenada.txt 
+git add .
+git status
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+touch comando_dump_net.txt
+ls
+"para hacer un dump traffic es necesario usar el comando tcpdump" >> comando_dump_net.txt
+"para hacer un dump traffic es necesario usar el comando tcpdump" > comando_dump_net.txt
+echo "para hacer un dump traffic es necesario usar el comando tcpdump" > comando_dump_net.txt
+ls
+cat comando_dump_net.txt 
+echo -n > comando_dump_net.txt 
+cat comando_dump_net.txt 
+echo "para hacer un dump traffic es necesario usar el comando sudo tcpdump, para realizar dicha busqueda se debe ejectuar -i eth0" > comando_dump_net.txt
+cat comando_dump_net.txt 
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat <<EOF >> README.md
+Alumno: Leandro Manuel More
+División: 314
+Turno: Noche
+EOF
+
+ls
+cat README.md 
+git add .
+git commit -m "agregado de informacion al README.md mediante tecnicas de HereDoc yy Redireccionamiento"
+history -a
